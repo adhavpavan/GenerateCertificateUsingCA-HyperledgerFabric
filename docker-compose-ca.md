@@ -1,8 +1,4 @@
-# Copyright IBM Corp. All Rights Reserved.
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
+```yaml
 version: "2"
 
 services:
@@ -19,3 +15,4 @@ services:
     volumes:
       - ./organizations/fabric-ca/org1:/etc/hyperledger/fabric-ca-server
     container_name: ca_org1
+```
